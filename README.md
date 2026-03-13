@@ -21,11 +21,7 @@ To exit, simply type EXIT.
 
 6. ROLLBACK - Enter the version number (files are versioned +1 after every snapshot). If found, will rollback to the given version.
 
-7. HISTORY - couldn't implement on time
 
 
 
-BIGGEST_FILES, SYSTEM_FILES - Implemented it using custom heaps, but due to some unknown segmentation error it wouldn't work. Even after multiple attempts at debugging.
-Original code exists in cpp file but now it is useless since I bypass that code whenever these functions are called to avoid crashing down of the whole system.
 
-Made by Atharva Deshmukh, 2024EE30692.
